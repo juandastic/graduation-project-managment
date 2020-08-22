@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/graduation-project-managment/static/css/main.fa56d39a.chunk.css",
+    "main.js": "/graduation-project-managment/static/js/main.bce02543.chunk.js",
+    "main.js.map": "/graduation-project-managment/static/js/main.bce02543.chunk.js.map",
+    "runtime-main.js": "/graduation-project-managment/static/js/runtime-main.f3cae7f4.js",
+    "runtime-main.js.map": "/graduation-project-managment/static/js/runtime-main.f3cae7f4.js.map",
+    "static/js/2.de6aa3a8.chunk.js": "/graduation-project-managment/static/js/2.de6aa3a8.chunk.js",
+    "static/js/2.de6aa3a8.chunk.js.map": "/graduation-project-managment/static/js/2.de6aa3a8.chunk.js.map",
+    "index.html": "/graduation-project-managment/index.html",
+    "precache-manifest.1d3db2b1f2e3caf56dd7bad485c4a279.js": "/graduation-project-managment/precache-manifest.1d3db2b1f2e3caf56dd7bad485c4a279.js",
+    "service-worker.js": "/graduation-project-managment/service-worker.js",
+    "static/css/main.fa56d39a.chunk.css.map": "/graduation-project-managment/static/css/main.fa56d39a.chunk.css.map",
+    "static/js/2.de6aa3a8.chunk.js.LICENSE.txt": "/graduation-project-managment/static/js/2.de6aa3a8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3cae7f4.js",
+    "static/js/2.de6aa3a8.chunk.js",
+    "static/css/main.fa56d39a.chunk.css",
+    "static/js/main.bce02543.chunk.js"
+  ]
+}
