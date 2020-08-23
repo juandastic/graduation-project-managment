@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f10553cc0d8c6932c40657b1635e66b",
+    "revision": "52a8cc2315a4b67a1a11a0f6987763d4",
     "url": "/graduation-project-managment/index.html"
   },
   {
-    "revision": "f35eb4169af159470a0b",
+    "revision": "c39518708c3b3175d998",
     "url": "/graduation-project-managment/static/css/main.fa56d39a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/graduation-project-managment/static/js/2.de6aa3a8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f35eb4169af159470a0b",
-    "url": "/graduation-project-managment/static/js/main.bce02543.chunk.js"
+    "revision": "c39518708c3b3175d998",
+    "url": "/graduation-project-managment/static/js/main.03d62cbd.chunk.js"
   },
   {
     "revision": "091df8346ad7ae597629",
