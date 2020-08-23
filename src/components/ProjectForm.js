@@ -50,7 +50,7 @@ function ProjectForm({projectInfo = {}}) {
       <div className="flex flex-wrap -mx-3">
         <div className="w-full md:w-full px-3">
           {
-            projectInfo ? (<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+            projectInfo.id ? (<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
               Editar Proyecto
             </button>) :
             (<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">

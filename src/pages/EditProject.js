@@ -6,6 +6,7 @@ import TasksGrid from '../components/TasksGrid';
 
 function EditProject() {
   let projectInfo = {
+    id: "efr",
     title: "title",
     finishDate: "2020-04-04",
     description: "description"
