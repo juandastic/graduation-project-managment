@@ -5,9 +5,9 @@ import { faEdit } from '@fortawesome/free-solid-svg-icons';
 
 function ProjectsGrid({projects}) {
   return (
-    <div className="grid grid-flow-row grid-cols-3 grid-rows-3 gap-4">
+    <div className="grid grid-flow-row grid-cols-1 md:grid-cols-3 grid-rows-3 gap-4">
       {projects && projects.map((project, i) => (
-      <div className="max-w-md rounded overflow-hidden shadow-lg" key={i}>
+      <div className="md:max-w-md rounded overflow-hidden shadow-lg" key={i}>
         <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2 flex justify-between">
               {project.title}
