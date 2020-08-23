@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f91eb2cace0e8bd7f095b150a0aefbc1",
+    "revision": "028c86ec345b8dff9e615b3da0a25f14",
     "url": "/graduation-project-managment/index.html"
   },
   {
-    "revision": "2d6a8cbad463eae05a11",
+    "revision": "706d4833bb19ce3fb5e1",
     "url": "/graduation-project-managment/static/css/main.fa56d39a.chunk.css"
   },
   {
-    "revision": "30374ee440993c8fab60",
-    "url": "/graduation-project-managment/static/js/2.28bb20b0.chunk.js"
+    "revision": "a394d70df9af0cdf1865",
+    "url": "/graduation-project-managment/static/js/2.398966ae.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/graduation-project-managment/static/js/2.28bb20b0.chunk.js.LICENSE.txt"
+    "url": "/graduation-project-managment/static/js/2.398966ae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2d6a8cbad463eae05a11",
-    "url": "/graduation-project-managment/static/js/main.7034364d.chunk.js"
+    "revision": "706d4833bb19ce3fb5e1",
+    "url": "/graduation-project-managment/static/js/main.fd4945bf.chunk.js"
   },
   {
     "revision": "091df8346ad7ae597629",
