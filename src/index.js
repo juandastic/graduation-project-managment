@@ -1,21 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { createStore, combineReducers } from 'redux';
+import { createStore, compose } from 'redux';
+import reducer from './redux/reducer';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-const reducer = combineReducers({
-  projects: []
-  // form: reduxFormReducer, // mounted under "form"
-});
-
-const store = (window.devToolsExtension
-  ? window.devToolsExtension()(createStore)
-  : createStore)(reducer);
-
+const store = createStore(
+  reducer,
+  composeEnhancers()
+);
 
 ReactDOM.render(
   <Provider store={store}>
