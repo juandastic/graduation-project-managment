@@ -13,9 +13,10 @@ function CreateProject() {
       title: values.title,
       description: values.description,
       finish_date: values.finish_date,
-      students: ["Luisa Fernanda Cano Cano", "Alejandro Cardenas", "Jose Gabriel", "Juan David Gómez", "Nelson Fernando"],
+      student_list: values.student_list || [],
       adviser: "Profesor Logeado",
-      state: "En proceso"
+      state: "En proceso",
+      tasks: []
     }
 
     dispatch(addProjectAction(project))

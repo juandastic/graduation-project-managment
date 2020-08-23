@@ -1,7 +1,6 @@
 import React from 'react';
 import { Field, reduxForm } from 'redux-form';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTrash } from '@fortawesome/free-solid-svg-icons';
+import StudentList from './StudentList';
 
 function ProjectForm({projectInfo = {}, handleSubmit, pristine, submitting }) {
 
@@ -45,17 +44,10 @@ function ProjectForm({projectInfo = {}, handleSubmit, pristine, submitting }) {
           />
         </div>
         <div className="w-full md:w-1/2 px-3">
-          <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-city">
-            Seleccionar estudiantes
-          </label>
-          <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" type="text" placeholder="Buscar nombre de estudiante" />
-          <ul className="mt-2">
-            <li className="border p-2 flex justify-between">Luisa Fernanda Cano Cano <FontAwesomeIcon icon={faTrash} /></li>
-            <li className="border p-2 flex justify-between">Alejandro Cardenas Pabón <FontAwesomeIcon icon={faTrash} /></li>
-            <li className="border p-2 flex justify-between">Jose Gabriel Ahumada Soto <FontAwesomeIcon icon={faTrash} /></li>
-            <li className="border p-2 flex justify-between">Juan David Gómez Escobar <FontAwesomeIcon icon={faTrash} /></li>
-            <li className="border p-2 flex justify-between">Nelson Fernando Piñeros Ramírez <FontAwesomeIcon icon={faTrash} /></li>
-          </ul>
+          <Field
+            name="student_list"
+            component={StudentList}
+          />
         </div>
       </div>
       <div className="flex flex-wrap -mx-3">

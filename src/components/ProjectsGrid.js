@@ -11,7 +11,7 @@ function ProjectsGrid({projects}) {
         <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2 flex justify-between">
               {project.title}
-              <Link to={`/editar-proyecto/${i}`}>
+              <Link to={`/editar-proyecto/${project.id}`}>
                 <FontAwesomeIcon icon={faEdit} />
               </Link>
             </div>
@@ -19,7 +19,7 @@ function ProjectsGrid({projects}) {
               Asesor: {project.adviser}
             </p>
             <p className="text-gray-700 text-base">
-              Estudiantes: {project.students.join(" - ")}
+              Estudiantes: {project.student_list.join(" - ")}
             </p>
         </div>
         <div className="px-6 pt-4 pb-2">
