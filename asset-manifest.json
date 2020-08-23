@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/graduation-project-managment/static/css/main.fa56d39a.chunk.css",
-    "main.js": "/graduation-project-managment/static/js/main.ccc83cd3.chunk.js",
-    "main.js.map": "/graduation-project-managment/static/js/main.ccc83cd3.chunk.js.map",
+    "main.js": "/graduation-project-managment/static/js/main.9afc9092.chunk.js",
+    "main.js.map": "/graduation-project-managment/static/js/main.9afc9092.chunk.js.map",
     "runtime-main.js": "/graduation-project-managment/static/js/runtime-main.f3cae7f4.js",
     "runtime-main.js.map": "/graduation-project-managment/static/js/runtime-main.f3cae7f4.js.map",
     "static/js/2.71dfb883.chunk.js": "/graduation-project-managment/static/js/2.71dfb883.chunk.js",
     "static/js/2.71dfb883.chunk.js.map": "/graduation-project-managment/static/js/2.71dfb883.chunk.js.map",
     "index.html": "/graduation-project-managment/index.html",
-    "precache-manifest.d50550d1b58ec79d8b56e36fbe793bcf.js": "/graduation-project-managment/precache-manifest.d50550d1b58ec79d8b56e36fbe793bcf.js",
+    "precache-manifest.49e88bec05c9b6f4c3e07880abcb0aa6.js": "/graduation-project-managment/precache-manifest.49e88bec05c9b6f4c3e07880abcb0aa6.js",
     "service-worker.js": "/graduation-project-managment/service-worker.js",
     "static/css/main.fa56d39a.chunk.css.map": "/graduation-project-managment/static/css/main.fa56d39a.chunk.css.map",
     "static/js/2.71dfb883.chunk.js.LICENSE.txt": "/graduation-project-managment/static/js/2.71dfb883.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f3cae7f4.js",
     "static/js/2.71dfb883.chunk.js",
     "static/css/main.fa56d39a.chunk.css",
-    "static/js/main.ccc83cd3.chunk.js"
+    "static/js/main.9afc9092.chunk.js"
   ]
 }
