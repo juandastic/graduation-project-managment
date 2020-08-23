@@ -7,7 +7,7 @@ function TasksGrid({tasks}) {
   return (
     <div className="grid grid-flow-row md:grid-cols-3 grid-cols-1 grid-rows-3 gap-4">
       {tasks && tasks.map((taks, i) => (
-      <div className="max-w-md rounded overflow-hidden shadow-lg" key={i}>
+      <div className="rounded overflow-hidden shadow-lg" key={i}>
         <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2 flex justify-between">
               { taks.name }
